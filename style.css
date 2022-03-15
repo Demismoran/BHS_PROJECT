@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+}
+
+.top {
+	background: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 200%;
+	padding: 60px;
+	font-family: cursive;
+	color: black;
+	border-radius:50px;
+
+}
+
+.top img {
+	width: 100%;
+}
+
+.bar {
+	background-color: grey;
+	overflow: hidden;
+
+}	
+
+.bar .searchBar {
+	float: right;
+}
+.bar input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+      }
+
+.bar button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+      }
+      
+
+.bar a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	background: grey;
+	display: block;
+}
+
+.bar a:hover {
+	background-color: black;
+	color: red;
+}
+
+
+.info {
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about {
+	flex: 30%; 
+	background: black;
+	padding: 20px;
+	color: white;
+}
+
+.about .bhs img {
+	width:100%;
+}
+.footer {
+	display:flex;
+	justify-content:center;
+	background: darkgray;
+}
+
+h2 {
+	display: block;
+	color: white;
+}
